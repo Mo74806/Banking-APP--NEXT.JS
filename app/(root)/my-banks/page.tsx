@@ -10,7 +10,7 @@ const MyBanks = async () => {
 
   const loggedIn = await getLoggedInUser();
   const accounts = await getAccounts({
-    userId: loggedIn.$id,
+    userId: loggedIn?.$id,
   });
 
   return (
@@ -23,7 +23,7 @@ const MyBanks = async () => {
           <div className="flex flex-wrap gap-6  justify-center lg:justify-start ">
             {accounts &&
               accounts.data.map((a: Account) => (
-                <div key={a.id}>
+                <div key={a?.id}>
                   <BankCard account={a} userName={loggedIn?.firstName} />
                   <div className="flex">
                     <div className="w-auto ms-auto"></div>

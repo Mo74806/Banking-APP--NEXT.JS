@@ -11,7 +11,7 @@ const Transfer = async () => {
   metadata.title = 'Bankify - Transfer Funds';
   const loggedIn = await getLoggedInUser();
   const accounts = await getAccounts({
-    userId: loggedIn.$id,
+    userId: loggedIn?.$id,
   });
 
   if (!accounts) return;
