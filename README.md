@@ -49,3 +49,6 @@ Built with Next.js, Bankify is a financial SaaS platform that connects to multip
 👉 **Responsiveness**: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms.
 
 and many more, including code architecture and reusability.
+## <a name="features">Connecting test Bank Account</a>
+👉 **Plaid Account**: **email & password** :user_good
+
