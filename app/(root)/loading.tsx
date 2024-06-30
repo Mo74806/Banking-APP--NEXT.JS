@@ -1,7 +1,7 @@
 import { Skeleton } from '@/components/ui/skeleton';
 import React from 'react';
 
-const Loading = () => {
+export default function Loading() {
   return (
     <div className="home">
       <div className="xl:w-8/12 w-[100%] pt-[45px] ps-[30px]  pe-8 ">
@@ -40,6 +40,4 @@ const Loading = () => {
       </div>
     </div>
   );
-};
-
-export default Loading;
+}
