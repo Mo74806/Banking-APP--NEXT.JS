@@ -134,7 +134,7 @@
   }
 
   .recent-transactions {
-    @apply flex w-full flex-col gap-6;
+    @apply flex w-fit flex-col gap-6;
   }
 
   .view-all-btn {
@@ -142,7 +142,7 @@
   }
 
   .recent-transactions {
-    @apply flex w-full flex-col gap-6;
+    @apply flex w-fit flex-col gap-6;
   }
 
   .recent-transactions-label {
@@ -209,7 +209,7 @@
   }
 
   .header-box {
-    @apply flex flex-col gap-1;
+    @apply w-fit flex flex-col gap-1;
   }
 
   .header-box-title {
@@ -340,7 +340,7 @@
   }
 
   .footer_name {
-    @apply flex size-10 items-center justify-center rounded-full bg-gray-200 max-xl:hidden;
+    @apply flex  !w-[30px] !h-[30px] items-center justify-center rounded-full bg-gray-200 max-xl:hidden;
   }
 
   .footer_email {
